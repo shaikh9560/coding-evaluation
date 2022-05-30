@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit2 C2</title>
+  <style>
+    #banner {
+      width: 70%;
+      height: 200px;
+      border: 1px transparent;
+      display: flex;
+      margin: auto;
+      padding: 20px;
+      background-color: blue;
+      border-radius: 20px;
+      color: white;
+    }
+
+    #banner img {
+      width: 80%;
+      height: 200px;
+      padding-left: 300px;
+    }
+
+    #banner>div button {
+      background-color: white;
+      border-radius: 10px;
+      color: black;
+
+    }
+
+    #services {
+      width: 80%;
+      display: grid;
+
+
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(1, 220px);
+      margin: auto;
+      margin-top: 50px;
+      gap: 10px;
+      
+    }
+
+    #services div {
+      border: 1px solid transparent;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+
+    #services img {
+      width: 100%;
+      height: 60%;
+    }
+
+    #services h3 {
+      width: 70%;
+      margin-top: 5px;
+
+
+    }
+     
+    #works {
+      width: 80%;
+      display: grid;
+       border: 1px solid red;
+
+      grid-template-rows: repeat(2,200px);
+      grid-template-columns: repeat(4, 1fr);
+      margin: auto;
+      margin-top: 50px;
+      gap: 10px;
+      
+    }
+
+    #works div{
+      border: 1px solid black;
+    }
+   
+   
+     
+
+
+
+    
+
+
+
+
+
+    /* Medium Screen */
+    @media only screen and (min-width: 500px) and (max-width: 768px) {}
+
+    /* Small Screen */
+    @media only screen and (min-width: 320px) and (max-width: 499px) {}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="banner">
+      <!-- Here should be 2 divs one for the banner heading and button and the second is for banner image -->
+      <div>
+        <h2>You are in save hands</h2>
+        <p>Check The experts</p>
+        <div> <button>Know more</button></div>
+      </div>
+
+      <div>
+        <img src="https://www.practostatic.com/consumer-home/practo-care/1631634827/dweb_hero_banner.png">
+      </div>
+
+    </div>
+
+
+  </div>
+  <div id="services">
+    <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
+    <div>
+      <img
+        src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+      <h3>Instant Video Salution </h3>
+      <p>Come to use</p>
+    </div>
+    <div>
+      <img
+        src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+      <h3>Instant Video Salution </h3>
+      <p>Come to use</p>
+    </div>
+    <div>
+      <img
+        src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+      <h3>Instant Video Salution </h3>
+      <p>Come to use</p>
+    </div>
+    <div>
+      <img
+        src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+      <h3>Instant Video Salution </h3>
+      <p>Come to use</p>
+    </div>
+    <div>
+      <img
+        src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+      <h3>Instant Video Salution </h3>
+      <p>Come to use</p>
+    </div>
+    <div>
+      <img
+        src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png">
+      <h3>Instant Video Salution </h3>
+      <p>Come to use</p>
+    </div>
+
+  </div>
+  <div id="works">
+   
+
+    <div>
+
+      <!-- Here should be 8 divs. They should be in 4 colums and two rows for large screen.For medium and large screen refer to question statement -->
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
